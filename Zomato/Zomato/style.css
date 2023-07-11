@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    background-image: url(./81f3ff974d82520780078ba1cfbd453a1583259680.webp);
+    width: 100%;
+    height: 400px;
+}
+.maindiv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+.maindiv .logo{
+    text-align: center;
+}
+.maindiv .input{
+    text-align: center;
+}
+.maindiv .right{
+    display: flex;
+}
+.maindiv nav .right>p{
+    margin-inline:10px ;
+    margin: top 20px;px ;
+}
+.maindiv nav .right>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.maindiv .logo>img{
+    width: 40%;
+    margin-top: 50px;
+}
+.maindiv .text{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size:larger;
+}
+.maindiv .input>input{
+    margin-top: 15px;
+    width: 400px;
+    height: 15px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card .crd>img{
+    width: 320px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.collection .text{
+margin-left: 45px;
+margin-top: 3px;
+padding: 30px;
+}
+.collection .restaurant{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.restaurant>img{
+    width: 23%;
+    border-radius: 7px;
+}
+.app{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: papayawhip;
+}
+.app >img{
+    width: 40%;
+}
+.app>h1{
+    margin-top: 15%;
+    font-size: 40px;
+}
+.button>h1{
+    margin-left: 16%;
+    margin-top: 12px;
+    padding: 12px;
+   margin-left: 30%;
+}
+.button >button{
+    width: 600px;
+    height: 4cqb;
+   background-color:white;
+   border: 1px solid gray;
+   margin-top: 11px;
+   margin-left: 280px;
+   border-radius: 7px;
+   font-size: large;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   background-color: rgb(242, 237, 237);
+   margin-top: 35px;
+   padding: 35px;
+}
